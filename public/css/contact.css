@@ -1,0 +1,183 @@
+/*
+Template Name:Cavyalia
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'Josefin Sans', sans-serif!important;
+   }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+   border:none!important;
+   }
+.active_tab{
+   color:#c08585!important;
+  }
+.left_1{
+  display:block;
+ }
+
+
+
+/*********************about****************/
+.about_team {
+    background-image: url(../img/14.jpg)!important;
+	background-repeat:no-repeat;
+}
+/*********************team_2****************/
+
+
+/*********************contact****************/
+#contact{
+padding-top:70px;
+padding-bottom:70px;
+}
+.contact_left_inner_left_inner p{
+font-size:75px;
+color:#CC3333;
+}
+.contact_left_inner_right_inner{
+padding-left:20px;
+}
+.contact_left_inner_right_inner h4{
+font-size:30px;
+padding-top:20px;
+}
+.contact_left_inner_right_inner .hr_1 {
+width: 65px;
+border-width: 1px;
+border-color: #333;
+margin-left:0;
+}
+.contact_left_inner_right_inner p{
+font-size:17px;
+color:#999;
+}
+.contact_left_inner_right_inner p a{
+font-size:17px;
+color:#999;
+}
+.contact_left_inner_right_inner p a:hover{
+color:#FFCC66;
+}
+
+/*********************contact_end****************/
+
+
+/*********************contact_end****************/
+#contact_2{
+padding-top:50px;
+padding-bottom:60px;
+}
+.contact_2 h1{
+font-size:55px;
+text-align:center;
+}
+.contact_2 .hr_1 {
+width: 65px;
+border-width: 1px;
+border-color: #333;
+}
+.contact_2 p{
+font-size:25px;
+font-style:italic;
+text-align:center;
+font-family: 'Pacifico', cursive;
+padding-bottom:30px;
+}
+.contact_2 .form-control_new_1 {
+width:300px;
+margin:auto;
+height:45px;
+margin-bottom:10px;
+}
+.contact_2 .form-control_mass {
+width:300px;
+margin:auto;
+height:145px;
+margin-bottom:10px;
+}
+.contact_2 h5{
+text-align:center;
+padding-top:20px;
+}
+.contact_2 h5 a {
+padding: 12px 30px;
+font-size: 17px;
+color: #000000;
+border: 2px solid #000000;
+}
+.contact_2 h5 a:hover {
+color: #fff;
+background:#000000;
+border: 2px solid #000000;
+}
+
+/*********************contact_end****************/
+
+
+
+
+
+@media screen and (max-width : 767px){
+.contact_left_inner_left_inner p {
+font-size: 75px;
+text-align: center;
+}
+.contact_left_inner_right_inner{
+text-align:center;
+}
+.contact_left_inner_right_inner .hr_1 {
+margin-left: auto;
+}
+
+}
+
+@media (min-width:768px) and (max-width:960px) {
+.contact_left_inner_left_inner p {
+font-size: 58px;
+}
+
+}
+
+@media (min-width:961px) and (max-width:1200px) {
+#contact .container {
+width: auto;
+}
+
+}
+
+@media (min-width:1201px) and (max-width:1250px) {
+
+ }
+
+
+
+
+

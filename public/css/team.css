@@ -1,0 +1,168 @@
+/*
+Template Name:Cavyalia
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'Josefin Sans', sans-serif!important;
+   }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+   border:none!important;
+   }
+.active_tab{
+   color:#c08585!important;
+  }
+.left_1{
+  display:block;
+ }
+
+
+
+/*********************about****************/
+.about_team {
+    background-image: url(../img/14.jpg)!important;
+	background-repeat:no-repeat;
+}
+/*********************team_2****************/
+
+
+/*********************team_2****************/
+#team_2{
+background:#f4f4f4;
+}
+.team_2_left_top_right_inner{
+padding-top:70px;
+padding-right:50px;
+}
+.team_2_left_top_right_inner h2{
+font-size:48px;
+line-height:70px;
+padding-bottom:20px;
+font-family: 'Pacifico', cursive;
+}
+.team_2_left_top_right_inner .hr_1 {
+width: 45px;
+border-width: 2px;
+border-color: #333;
+margin-left: 0px;
+}
+.team_2_left_top_right_inner h4{
+font-size:24px;
+font-style:italic;
+padding-top:20px;
+padding-bottom:20px;
+}
+.team_2_left_top_right_inner p{
+font-size:19px;
+line-height:30px;
+}
+.team_2_right {
+padding:0;
+margin:0;
+}
+.team_2_left_top_right_inner_2{
+padding-left:60px!important;
+}
+
+
+/*********************team_2_end****************/
+
+
+
+
+
+
+
+
+@media screen and (max-width : 767px){
+.team_2_left_top_right_inner h2 {
+font-size: 40px;
+text-align:center;
+line-height:40px;
+}
+.team_2_left_top_right_inner .hr_1 {
+margin-left: auto;
+}
+.team_2_left_top_right_inner {
+padding-top: 30px;
+padding-right: 0px;
+text-align:center;
+}
+.team_2_right p img{
+margin-bottom:30px;
+}
+.team_2_left_top_right_inner_2 {
+padding-left: 0px!important;
+}
+
+}
+
+@media (min-width:768px) and (max-width:960px) {
+.team_2_left_top_right_inner {
+padding-top: 20px;
+padding-right: 0px;
+}
+.team_2_left_top_right_inner h2 {
+font-size: 26px;
+line-height: 30px;
+}
+.team_2_left_top_right_inner h4 {
+font-size: 20px;
+}
+.team_2_left_top_right_inner p {
+font-size: 16px;
+line-height: 25px;
+}
+
+}
+
+@media (min-width:961px) and (max-width:1200px) {
+.team_2_left_top_right_inner h2 {
+font-size: 28px;
+line-height: 36px;
+}
+.team_2_left_top_right_inner_2 {
+padding-left: 0px!important;
+}
+.team_2_left_top_right_inner {
+padding-top: 10px;
+padding-right: 0px;
+}
+
+}
+
+@media (min-width:1201px) and (max-width:1250px) {
+
+ }
+
+
+
+
+
